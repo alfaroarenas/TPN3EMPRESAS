@@ -6,7 +6,10 @@ public class Empleado {
 	private double salario;
 	private String fechaDeCumpleaños;
 	
-	public Empleado() {
+	public Empleado(String nombre, double salario, String fechaDeCumpleaños) {
+		this.nombre = nombre;
+		this.salario = salario;
+		this.fechaDeCumpleaños = fechaDeCumpleaños;
 	}
 
 	public String getNombre() {
